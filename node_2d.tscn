@@ -1,0 +1,24 @@
+[gd_scene load_steps=2 format=3 uid="uid://d13kuqkbcir2u"]
+
+[ext_resource type="Script" path="res://addons/my_custom_node/my_button.gd" id="1_2kqk2"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="MyButton" type="Button" parent="Control"]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+text = "Click Me Please"
+script = ExtResource("1_2kqk2")
+
+[node name="MyButton2" type="Button" parent="Control"]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+script = ExtResource("1_2kqk2")
